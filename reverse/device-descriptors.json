@@ -1,0 +1,98 @@
+[
+  {
+    "Product": "AULA L99",
+    "Manufacturer": "SONiX",
+    "VendorID": 3141,
+    "ProductID": 32778,
+    "PrimaryUsagePage": 1,
+    "PrimaryUsage": 6,
+    "MaxFeatureReportSize": 0,
+    "MaxInputReportSize": 8,
+    "MaxOutputReportSize": 1,
+    "Transport": "USB",
+    "ReportDescriptor": "05010906a101050719e029e71500250175019508810295017508810195057501050819012905910295017503910195067508150026ff00050719002aff008100c0",
+    "DeviceUsagePairs": [
+      {
+        "DeviceUsage": 6,
+        "DeviceUsagePage": 1
+      }
+    ]
+  },
+  {
+    "Product": "AULA L99",
+    "Manufacturer": "SONiX",
+    "VendorID": 3141,
+    "ProductID": 32778,
+    "PrimaryUsagePage": 12,
+    "PrimaryUsage": 1,
+    "MaxFeatureReportSize": 1,
+    "MaxInputReportSize": 16,
+    "MaxOutputReportSize": 1,
+    "Transport": "USB",
+    "ReportDescriptor": "050c0901a101850319002a3c031500263c03950175108100c005010980a101850205011981298315002501950375018102950175058101c005010906a101850105071500250119002977957875018102c005010902a10185060901a1000509190129031500250195057501810295017503810105010930093109381581257f750895038106c0c006ffff0901a10185050901150026ff00750895038102c0",
+    "DeviceUsagePairs": [
+      {
+        "DeviceUsage": 1,
+        "DeviceUsagePage": 12
+      },
+      {
+        "DeviceUsage": 128,
+        "DeviceUsagePage": 1
+      },
+      {
+        "DeviceUsage": 6,
+        "DeviceUsagePage": 1
+      },
+      {
+        "DeviceUsage": 2,
+        "DeviceUsagePage": 1
+      },
+      {
+        "DeviceUsage": 1,
+        "DeviceUsagePage": 1
+      },
+      {
+        "DeviceUsage": 1,
+        "DeviceUsagePage": 65535
+      }
+    ]
+  },
+  {
+    "Product": "AULA L99",
+    "Manufacturer": "SONiX",
+    "VendorID": 3141,
+    "ProductID": 32778,
+    "PrimaryUsagePage": 65384,
+    "PrimaryUsage": 97,
+    "MaxFeatureReportSize": 0,
+    "MaxInputReportSize": 64,
+    "MaxOutputReportSize": 4096,
+    "Transport": "USB",
+    "ReportDescriptor": "0668ff0961a1010962150026ff009540750881020963150026ff0096001075089102c0",
+    "DeviceUsagePairs": [
+      {
+        "DeviceUsage": 97,
+        "DeviceUsagePage": 65384
+      }
+    ]
+  },
+  {
+    "Product": "AULA L99",
+    "Manufacturer": "SONiX",
+    "VendorID": 3141,
+    "ProductID": 32778,
+    "PrimaryUsagePage": 65299,
+    "PrimaryUsage": 1,
+    "MaxFeatureReportSize": 64,
+    "MaxInputReportSize": 64,
+    "MaxOutputReportSize": 64,
+    "Transport": "USB",
+    "ReportDescriptor": "0613ff0901a101150026ff007508954009028102090391020a00ffb102c0",
+    "DeviceUsagePairs": [
+      {
+        "DeviceUsage": 1,
+        "DeviceUsagePage": 65299
+      }
+    ]
+  }
+]

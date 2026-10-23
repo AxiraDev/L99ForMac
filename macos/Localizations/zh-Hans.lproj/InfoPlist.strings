@@ -1,0 +1,2 @@
+"NSAudioCaptureUsageDescription" = "系统音频用于驱动 L99 屏幕上的实时频谱和灯光。音频仅在本地处理，不会保存。";
+"NSHumanReadableCopyright" = "Copyright © 2026 L99 for Mac contributors. GNU GPLv3（GPL-3.0-only）。不提供任何担保。";

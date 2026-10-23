@@ -1,0 +1,43 @@
+name: Bug report
+description: Report a reproducible problem with L99 for Mac.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for testing the beta. Please check existing issues first. This app currently configures only AULA L99 over wired USB."
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      placeholder: "0.10.1"
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model and macOS version
+      placeholder: "MacBook Air M1, macOS ..."
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: L99 firmware version, if available
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed result
+      description: "Describe what actually happened on the keyboard or its screen, if applicable."
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Optional diagnostics or screenshots
+      description: "Review and redact personal data before posting."

@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an improvement to L99 for Mac.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help you do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested behavior
+    validations:
+      required: true

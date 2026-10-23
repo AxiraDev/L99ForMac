@@ -1,0 +1,16 @@
+{
+  "origin": "isolated complete GIF container converter in pic_scan.dll at 0x6a9c6c80; mocked Qt and file I/O, native pixel packing and LT encoding",
+  "size": [
+    2,
+    2
+  ],
+  "frames": 4,
+  "delaysMs": [
+    350,
+    140,
+    350,
+    140
+  ],
+  "capturedBytes": 2204,
+  "note": "Synthetic protocol-output bytes only; no manufacturer machine code."
+}

@@ -1,0 +1,10 @@
+core/target/
+.build/
+work/
+local-state/
+*.app/
+*.zip
+.DS_Store
+*.dmg
+__pycache__/
+*.py[cod]

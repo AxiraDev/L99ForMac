@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: GPL-3.0-only
+# Copyright (C) 2026 L99 for Mac contributors
+
+name: Protocol core
+on: [push, pull_request]
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cargo test --manifest-path core/Cargo.toml
+      - run: python3 scripts/audit_source.py
